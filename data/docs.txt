@@ -1,0 +1,3 @@
+Machine learning is a field of AI that focuses on training models to learn patterns from data.
+FastAPI is a modern Python web framework for building APIs quickly.
+Retrieval-Augmented Generation combines search with generation to improve LLM responses.

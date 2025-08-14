@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+jinja2
+openai
+sentence-transformers
+faiss-cpu
+aiofiles
+transformers
+numpy
+python-multipart

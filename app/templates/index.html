@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple RAG App</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        textarea { width: 100%; height: 100px; }
+        .result { margin-top: 20px; padding: 10px; background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h2>Simple RAG Demo</h2>
+    <form method="post">
+        <label>Query:</label><br>
+        <textarea name="query">{{ query or "" }}</textarea><br><br>
+        <label>Input Text:</label><br>
+        <textarea name="input_text">{{ input_text or "" }}</textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    {% if result %}
+    <div class="result">
+        <h3>Generated Response:</h3>
+        <pre>{{ result }}</pre>
+    </div>
+    {% endif %}
+</body>
+</html>
